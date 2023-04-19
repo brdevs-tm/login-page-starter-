@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Sign-Up</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="../css/signup.css"
+    />
+    <link rel="stylesheet" href="../css/signup-responsive.css" />
+    <script src="main.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <nav class="navbar">
+          <div class="navbar-left">
+            <a href="../index.html"
+              ><img src="../img/logo.png" alt="logo" /><span>trend</span></a
+            >
+          </div>
+          <div class="navbar-right">
+            <div class="links">
+              <ul>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contacts</a></li>
+              </ul>
+            </div>
+            <div class="buttons">
+              <a href="./login.html">
+                <button class="btn">Log in</button>
+              </a>
+              <a href="#">
+                <button class="btn">Open an Account</button>
+              </a>
+              <select name="langs" id="langs">
+                <option value="en">En</option>
+                <option value="en">Ru</option>
+                <option value="en">Uz</option>
+              </select>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div class="sign-bar container-2">
+        <form action="#" target="_self">
+          <section class="top">
+            <a href="../index.html"
+              ><img src="../img/logo.png" alt="logo" /><span>trend</span></a
+            >
+            <p>Welcome to ByTrend!</p>
+            <div class="account">
+              <h1>Already have an account?</h1>
+              <a href="./login.html">Log in</a>
+            </div>
+          </section>
+          <div class="email">
+            <label for="email">Email<span>*</span></label>
+            <input type="email" / id="email" placeholder="Email address"
+            required>
+          </div>
+          <div class="second">
+            <label for="lastName">Phone<span>*</span></label>
+            <div class="phone-number">
+              <div class="code">
+                <select name="code" id="code-country">
+                  <option value="usa">+1</option>
+                  <option value="ru">+7</option>
+                  <option value="uz">+998</option>
+                  <option value="turkey">+90</option>
+                  <option value="french">+33</option>
+                  <option value="poland">+48</option>
+                  <option value="japan">+81</option>
+                </select>
+              </div>
+              <div class="number">
+                <input type="tel" / id="number" placeholder="965-748-89-90"
+                required>
+              </div>
+            </div>
+          </div>
+          <div class="third">
+            <div class="first-one">
+              <div class="third-label">
+                <label for="country">Country <span>*</span> </label>
+              </div>
+              <div class="country">
+                <select name="code" id="country" required>
+                  <option value="usa">USA</option>
+                  <option value="ru">Russia</option>
+                  <option value="uz">Uzbekistan</option>
+                  <option value="turkey">Turkey</option>
+                  <option value="french">France</option>
+                  <option value="poland">Poland</option>
+                  <option value="japan">Japan</option>
+                </select>
+              </div>
+            </div>
+            <div class="city">
+              <label for="city">City<span>*</span></label>
+              <input type="text" / id="city" placeholder="Name of the city"
+              required>
+            </div>
+          </div>
+          <div class="fourth">
+            <label for="password">Password <span>*</span>&copy</label>
+            <input
+              type="password"
+              name="password"
+              id="password"
+              placeholder="************"
+              required
+            />
+          </div>
+          <div class="fifth">
+            <label for="promo">Confirm Password <span>*</span></label>
+            <input type="text" name="promo" id="promo" required />
+          </div>
+          <div class="register-btn">
+            <button>
+              <a href="./pages/signup-2.html">Register</a>
+            </button>
+          </div>
+        </form>
+      </div>
+    </main>
+    <footer>
+      <h1>
+        By signing up, you are agreeing to our
+        <span>Terms & Conditions</span> <br />
+        and <span>Privacy Policy</span>.
+      </h1>
+    </footer>
+  </body>
+</html>

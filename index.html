@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Signing-Up</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="./css/main.css"
+    />
+    <link rel="stylesheet" href="./css/responsive.css" />
+    <script src="main.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <nav class="navbar">
+          <div class="navbar-left">
+            <a href="#"
+              ><img src="./img/logo.png" alt="logo" /><span>trend</span></a
+            >
+          </div>
+          <div class="navbar-right">
+            <div class="links">
+              <ul>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contacts</a></li>
+              </ul>
+            </div>
+            <div class="buttons">
+              <a href="./pages/login.html">
+                <button class="btn">Log in</button>
+              </a>
+              <a href="./pages/signup-2.html">
+                <button class="btn">Open an Account</button>
+              </a>
+              <select name="langs" id="langs">
+                <option value="en">En</option>
+                <option value="en">Ru</option>
+                <option value="en">Uz</option>
+              </select>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div class="sign-bar container-2">
+        <form action="#" target="_self">
+          <section class="top">
+            <a href="#"
+              ><img src="./img/logo.png" alt="logo" /><span>trend</span></a
+            >
+            <p>Welcome to ByTrend!</p>
+            <div class="account">
+              <h1>Already have an account?</h1>
+              <a href="./pages/login.html">Log in</a>
+            </div>
+          </section>
+          <div class="names">
+            <div class="first">
+              <label for="firstName">First Name<span>*</span></label>
+              <input type="text" / id="firstName" required>
+            </div>
+            <div class="second">
+              <label for="lastName">Last Name<span>*</span></label>
+              <input type="text" / id="lastName" required>
+            </div>
+          </div>
+          <div class="third">
+            <label for="birthdate">Birth date <span>*</span></label>
+            <input type="date" / id="birthdate" placeholder="06.12.1992"
+            required>
+          </div>
+          <div class="fourth">
+            <label for="gender">Gender<span>*</span></label>
+            <div class="genders">
+              <div class="male">
+                <input
+                  type="radio"
+                  name="female"
+                  value="female
+                "
+                  id="female"
+                  required
+                />
+                <label for="female">Female</label>
+              </div>
+              <div class="female">
+                <input
+                  type="radio"
+                  name="male"
+                  value="male"
+                  id="male"
+                  required
+                />
+                <label for="male">Male</label>
+              </div>
+            </div>
+          </div>
+          <div class="fifth">
+            <label for="skype">Skype</label>
+            <input
+              type="text"
+              name="skype"
+              id="skype"
+              placeholder="Your login Skype"
+            />
+          </div>
+          <div class="sixth">
+            <label for="promo">Promo</label>
+            <input
+              type="text"
+              name="promo"
+              id="promo"
+              placeholder="Your promo"
+            />
+          </div>
+          <div class="continue-btn">
+            <a href="./pages/signup-2.html">
+              <button type="button">Continue</button>
+            </a>
+          </div>
+        </form>
+      </div>
+    </main>
+    <footer>
+      <p>©2020 All Rights Reserved. Lorem Technologies, Inc.</p>
+    </footer>
+  </body>
+</html>
